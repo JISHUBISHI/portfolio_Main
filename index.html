@@ -460,32 +460,6 @@
           </div>
         </div>
       </div>
-  
-  <script>
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-  
-    const formData = new FormData(event.target);
-    const data = {};
-    formData.forEach((value, key) => data[key] = value);
-  
-    fetch('/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-    .then(response => response.text())
-    .then(data => {
-      alert(data);
-    })
-    .catch(error => {
-      alert('Error sending message');
-    });
-  });
-  </script>
-  
 
   <!-- ======= End Contact Section ======= -->
 
