@@ -146,34 +146,82 @@
 
 
   <!-- ======= Start Education Section ======= -->
-
-  <section id="education" class="services">
+  <section id="education" class="services" style="background-color: #010e1b; padding: 50px 0;">
     <div class="container">
       <div class="section-title">
-        <h2>Education</h2>
+        <h2 style="color: #ffffff; text-align: center; margin-bottom: 30px;">Education</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <a href="http://www.boun.edu.tr/en_US" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymJA9VMssLLD4CMeoKBZYYZz36MkmlFARog&s" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
-            <h4 style="text-align:left;"><a href="http://www.boun.edu.tr/en_US" target="_blank" style="color:#12d640">Institute of Engineering And Management</a><br> </h4>
-            <h5 style="text-align:left;"><em>Bachelor of Science in Computer Science And Engineering; <strong>CGPA:8.3</strong></em></h5>
-            <span class="left" style="float:left;color:#fff;"><em>October,2022-Present</em></span>
-            
-        </div>
+      <div class="section-title text-center" style="margin-bottom: 40px;">
+      </div>
+      <div class="row justify-content-center">
         
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <a href="https://kocaelifenlisesi.meb.k12.tr/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZZ2GxtTxgqd1jSSqfuXCR1pSsYKqTXdsXw&s" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90"></a>
-            <h4 style="text-align:left;"><a href="https://kocaelifenlisesi.meb.k12.tr/" target="_blank" style="color:#12d640">Khukurdaha ICMM High School</a><br> </h4>
-            <h5 style="text-align:left;"><em>WBCHSE; <strong>80.6%</strong></em></h5>
-            <span class="left" style="float:left;color:#fff;"><em>September 2020 - June 2022</em></span>
+        <!-- First Education Card -->
+        <div class="col-lg-10" data-aos="fade-up">
+          <div class="card shadow-lg mb-4 education-card" style="border: none; border-radius: 10px; overflow: hidden; background-color: #09203a;">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-3 text-center" style="background-color: #ffff;">
+                <a href="http://www.boun.edu.tr/en_US" target="_blank">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymJA9VMssLLD4CMeoKBZYYZz36MkmlFARog&s" class="img-fluid my-4" alt="Institute Logo" style="max-height: 1000px;">
+                </a>
+              </div>
+              <div class="col-md-9 p-4">
+                <h4 style="color: #ebebeb; font-weight: bold; margin-bottom: 10px;">
+                  <a href="http://www.boun.edu.tr/en_US" target="_blank" style="text-decoration: none; color: #00ee38;">Institute of Engineering And Management</a>
+                </h4>
+                <h5 style="color: #ffffff; margin-bottom: 10px;">
+                  <em>Bachelor of Science in Computer Science And Engineering</em>
+                </h5>
+                <p style="color: #a0a1a1; font-size: 16px;">CGPA: <strong>8.3</strong></p>
+                <span style="color: #6c757d; font-size: 14px;"><em>October, 2022 - Present</em></span>
+              </div>
+            </div>
           </div>
         </div>
+        
+        <!-- Second Education Card -->
+        <div class="col-lg-10" data-aos="fade-up">
+          <div class="card shadow-lg mb-4 education-card" style="border: none; border-radius: 10px; overflow: hidden; background-color: #09203a;">
+            <div class="row g-0 align-items-center">
+              <div class="col-md-3 text-center" style="background-color: #ffffff;">
+                <a href="https://kocaelifenlisesi.meb.k12.tr/" target="_blank">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZZ2GxtTxgqd1jSSqfuXCR1pSsYKqTXdsXw&s" class="img-fluid my-4" alt="School Logo" style="max-height: 1000px;">
+                </a>
+              </div>
+              <div class="col-md-9 p-4">
+                <h4 style="color: #ffff; font-weight: bold; margin-bottom: 5px;">
+                  <a href="https://kocaelifenlisesi.meb.k12.tr/" target="_blank" style="text-decoration: none; color: #00ee38;">Khukurdaha ICMM High School</a>
+                </h4>
+                <h5 style="color: #ffffff; margin-bottom: 10px;">
+                  <em>WBCHSE</em>
+                </h5>
+                <p style="color: #a0a1a1; font-size: 16px;">Percentage: <strong>80.6%</strong></p>
+                <span style="color: #6c757d; font-size: 14px;"><em>September 2020 - June 2022</em></span>
+              </div>
+            </div>
+          </div>
         </div>
+  
       </div>
     </div>
   </section>
+  
+  <style>
+    .education-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+    }
+  
+    .education-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    }
+  
+    .education-card:hover h4 a {
+      color: #12d640 !important; /* Green highlight on hover */
+    }
+  </style>
+  
+  
 
   <!-- ======= End Education Section ======= -->
 
@@ -184,225 +232,390 @@
   <section id="projects" class="services">
     <div class="container">
       <div class="section-title">
-        <h2>Projects</h2>
+        <h2 style="color: #ffffff; text-align: center; margin-bottom: 30px;">Projects</h2>
       </div>
       <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display:inline-block;">
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
-            <a href="https://github.com/arasgungore/filters-and-fractals" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="https://i.ytimg.com/vi/Zau_qvJgiPo/maxresdefault.jpg" class="img-fluid" width="300" height="300"></a>
-            <a href="https://github.com/JISHUBISHI/Sentiment_Analysis" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>Sentiment Analysis</strong></h5></a>
-            <p style="padding:0px 2px;color:#fff;">This project explores sentiment analysis using Graph Neural Networks (GNNs) to capture complex relationships between words and sentences in text data. By constructing graph-based representations, GNNs process contextual dependencies, achieving more accurate sentiment classification. Applications include customer feedback analysis, social media sentiment tracking, and product review assessment, providing deeper insights through structured relationships in textual content.</p>
-          </div>
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom:5px;display:inline-block;">
-            <a href="https://github.com/JISHUBISHI/Melody_Voice_Assistant" target="_blank" rel="noreferrer"><img style="padding:5px 5px;" src="https://cdn.prod.website-files.com/5e305a6cb7083222527a89cc/66e414c27b4818a196ff0c1d_how_to_make_an_ai_voice_assistant_10_steps.webp" class="img-fluid" width="300" height="300"></a>
-            <a href="https://github.com/arasgungore/N-puzzle-solver" target="_blank" rel="noreferrer"><h5 style="padding:5px 5px;color:#12d640"><strong>Melody Voice Assistant</strong></h5></a>
-            <p style="padding:0px 2px;color:#fff;">Melody is a friendly and conversational AI voice assistant designed to interact naturally and assist users with a wide range of tasks. Built with advanced NLP techniques, Melody answers questions, provides recommendations, and offers support like a helpful friend. The assistant can perform searches, give reminders, and enhance productivity, making everyday tasks easier and more enjoyable through voice interaction.</p>
+        <div class="col-lg-12">
+          <div class="grid-container">
+            <!-- Project Box 1 -->
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://github.com/arasgungore/filters-and-fractals" target="_blank" rel="noreferrer">
+                <img src="https://i.ytimg.com/vi/Zau_qvJgiPo/maxresdefault.jpg" class="img-fluid">
+              </a>
+              <a href="https://github.com/JISHUBISHI/Sentiment_Analysis" target="_blank" rel="noreferrer">
+                <h5><strong>Sentiment Analysis</strong></h5>
+              </a>
+              <p>This project explores sentiment analysis using Graph Neural Networks (GNNs) to capture complex relationships between words and sentences...</p>
+            </div>
+            <!-- Project Box 2 -->
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <a href="https://github.com/JISHUBISHI/Melody_Voice_Assistant" target="_blank" rel="noreferrer">
+                <img src="https://cdn.prod.website-files.com/5e305a6cb7083222527a89cc/66e414c27b4818a196ff0c1d_how_to_make_an_ai_voice_assistant_10_steps.webp" class="img-fluid">
+              </a>
+              <a href="https://github.com/arasgungore/N-puzzle-solver" target="_blank" rel="noreferrer">
+                <h5><strong>Melody Voice Assistant</strong></h5>
+              </a>
+              <p>Melody is a friendly and conversational AI voice assistant designed to interact naturally and assist users with a wide range of tasks...</p>
+            </div>
+            <!-- Project Box 3 -->
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <a href="https://github.com/JISHUBISHI/Melody_Voice_Assistant" target="_blank" rel="noreferrer">
+                <img src="https://bakespaceshop.com/cdn/shop/files/BAKESPACE_BLOG.png?v=1724511597" class="img-fluid">
+              </a>
+              <a href="https://github.com/arasgungore/N-puzzle-solver" target="_blank" rel="noreferrer">
+                <h5><strong>Recipe Bot</strong></h5>
+              </a>
+              <p>Recipe Bot is an AI-powered culinary assistant that personalizes recipes, offers ingredient-based suggestions, provides step-by-step guidance, and supports dietary preferences, making cooking effortless, creative, and enjoyable.</p>
+            </div>
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <a href="https://github.com/JISHUBISHI/Melody_Voice_Assistant" target="_blank" rel="noreferrer">
+                <img src="https://www.datasciencecentral.com/wp-content/uploads/2022/10/AdobeStock_302421773.jpg" class="img-fluid">
+              </a>
+              <a href="https://github.com/arasgungore/N-puzzle-solver" target="_blank" rel="noreferrer">
+                <h5><strong>AlgoGPT 2.0</strong></h5>
+              </a>
+              <p>
+                Algo Bot is an AI-driven assistant that simplifies algorithm learning, visualizes concepts, provides step-by-step explanations, and offers personalized guidance, making complex algorithms accessible, interactive, and engaging for everyone.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
+  
+  <style>
+    /* General Styles */
+    body {
+      background-color: #121212;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+  
+    /* Grid Layout */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      padding: 20px 0;
+    }
+  
+    /* Project Box Styling */
+    .icon-box {
+      background: linear-gradient(145deg, #1e1e2f, #28293d);
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+      color: #fff;
+    }
+  
+    .icon-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+  
+    .icon-box h5 {
+      margin-top: 15px;
+      color: #12d640;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+  
+    .icon-box p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-top: 10px;
+      opacity: 0.85;
+    }
+  
+    /* Hover Effects */
+    .icon-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    }
+  
+    .icon-box:hover img {
+      transform: scale(1.1);
+    }
+  
+    .icon-box:hover h5 {
+      color: #00ff7f;
+    }
+  </style>
   <!-- ======= End Projects Section ======= -->
 
 
 
   <!-- ======= Start Skills Section ======= -->
 
-  <section id="skills" class="services">
+  <section id="skills" class="skills-section">
     <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
+      <div class="section-title text-center">
+        <h2 class="title-text">Skills</h2>
       </div>
       <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;color:#12d640;">Languages</h4>
-            <div style="text-align:left;">
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.cprogramming.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/c.svg" alt="c" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">C</figcaption>
+        
+        <!-- Languages Section -->
+        <div class="col-lg-12 mb-5" data-aos="fade-up">
+          <div class="skills-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="section-heading">Languages</h4>
+            <div class="skills-icons">
+              <figure class="icon-item">
+                <a href="https://www.cprogramming.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/c.svg" alt="c" class="skill-icon" />
+                </a>
+                <figcaption>C</figcaption>
               </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.cplusplus.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/cplusplus.svg" alt="cplusplus" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">C++</figcaption>
+              <figure class="icon-item">
+                <a href="https://www.cplusplus.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/cplusplus.svg" alt="cplusplus" class="skill-icon" />
+                </a>
+                <figcaption>C++</figcaption>
               </figure>
-              &nbsp; &nbsp;
-
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Java</figcaption>
+              <figure class="icon-item">
+                <a href="https://www.java.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" class="skill-icon" />
+                </a>
+                <figcaption>Java</figcaption>
               </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Python</figcaption>
+              <figure class="icon-item">
+                <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" class="skill-icon" />
+                </a>
+                <figcaption>Python</figcaption>
               </figure>
-              &nbsp; &nbsp;
-
-
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">JavaScript</figcaption>
+              <figure class="icon-item">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" class="skill-icon" />
+                </a>
+                <figcaption>JavaScript</figcaption>
               </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">TypeScript</figcaption>
+              <figure class="icon-item">
+                <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" class="skill-icon" />
+                </a>
+                <figcaption>TypeScript</figcaption>
               </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.mathworks.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/matlab.svg" alt="matlab" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">MATLAB</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-            </div>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;color:#12d640;">Technologies</h4>
-            <div style="text-align:left;">
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Flask</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.djangoproject.com" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Django</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Node.js</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://reactjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactjs" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">React.js</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.mysql.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">MySQL</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">MongoDB</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://git-scm.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/git.svg" alt="git" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Git</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">AWS</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">GCP</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.linux.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Linux</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Bash</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-              
-            </div>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;color:#12d640;">Libraries</h4>
-            <div style="text-align:left;">
-              <figure class="item" style="display:inline-block;">
-                <a href="https://opencv.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">OpenCV</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Scikit-Learn</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://pytorch.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">PyTorch</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://keras.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/keras.svg" alt="keras" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Keras</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">TensorFlow</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://numpy.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/numpy.svg" alt="numpy" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">NumPy</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-              
-              <figure class="item" style="display:inline-block;">
-                <a href="https://pandas.pydata.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Pandas</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://matplotlib.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/matplotlib.svg" alt="matplotlib" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Matplotlib</figcaption>
-              </figure>
-              &nbsp; &nbsp;
-
-              <figure class="item" style="display:inline-block;">
-                <a href="https://seaborn.pydata.org" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40" /> </a>
-                <figcaption style="text-align:center;">Seaborn</figcaption>
+              <figure class="icon-item">
+                <a href="https://www.mathworks.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/matlab.svg" alt="matlab" class="skill-icon" />
+                </a>
+                <figcaption>MATLAB</figcaption>
               </figure>
             </div>
           </div>
         </div>
+        
+        <!-- Technologies Section -->
+        <div class="col-lg-12 mb-5" data-aos="fade-up">
+          <div class="skills-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="section-heading">Technologies</h4>
+            <div class="skills-icons">
+              <figure class="icon-item">
+                <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flask-logo-icon.png" alt="flask" class="skill-icon" />
+                </a>
+                <figcaption>Flask</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.djangoproject.com" target="_blank" rel="noreferrer">
+                  <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" class="skill-icon" />
+                </a>
+                <figcaption>Django</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" class="skill-icon" />
+                </a>
+                <figcaption>Node.js</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactjs" class="skill-icon" />
+                </a>
+                <figcaption>React.js</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" class="skill-icon" />
+                </a>
+                <figcaption>MySQL</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.mongodb.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" class="skill-icon" />
+                </a>
+                <figcaption>MongoDB</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://git-scm.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/git.svg" alt="git" class="skill-icon" />
+                </a>
+                <figcaption>Git</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" class="skill-icon" />
+                </a>
+                <figcaption>AWS</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
+                  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" class="skill-icon" />
+                </a>
+                <figcaption>GCP</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.linux.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" class="skill-icon" />
+                </a>
+                <figcaption>Linux</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
+                  <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" class="skill-icon" />
+                </a>
+                <figcaption>Bash</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Libraries Section -->
+        <div class="col-lg-12 mb-5" data-aos="fade-up">
+          <div class="skills-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="section-heading">Libraries</h4>
+            <div class="skills-icons">
+              <figure class="icon-item">
+                <a href="https://opencv.org" target="_blank" rel="noreferrer">
+                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" class="skill-icon" />
+                </a>
+                <figcaption>OpenCV</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://scikit-learn.org" target="_blank" rel="noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" class="skill-icon" />
+                </a>
+                <figcaption>Scikit-Learn</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://pytorch.org" target="_blank" rel="noreferrer">
+                  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" class="skill-icon" />
+                </a>
+                <figcaption>PyTorch</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://keras.io" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/keras.svg" alt="keras" class="skill-icon" />
+                </a>
+                <figcaption>Keras</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
+                  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" class="skill-icon" />
+                </a>
+                <figcaption>TensorFlow</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://numpy.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/numpy.svg" alt="numpy" class="skill-icon" />
+                </a>
+                <figcaption>NumPy</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://pandas.pydata.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" class="skill-icon" />
+                </a>
+                <figcaption>Pandas</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://matplotlib.org" target="_blank" rel="noreferrer">
+                  <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/icons/matplotlib.svg" alt="matplotlib" class="skill-icon" />
+                </a>
+                <figcaption>Matplotlib</figcaption>
+              </figure>
+              <figure class="icon-item">
+                <a href="https://seaborn.pydata.org" target="_blank" rel="noreferrer">
+                  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" class="skill-icon" />
+                </a>
+                <figcaption>Seaborn</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   </section>
-
+  
+  <style>
+    .skills-section {
+      padding: 60px 0;
+    }
+  
+    .section-title {
+      margin-bottom: 50px;
+      color: #12d640;
+    }
+  
+    .title-text {
+      font-size: 36px;
+      font-weight: bold;
+      color: #12d640;
+    }
+  
+    .skills-box {
+      background-color: #09203a;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .section-heading {
+      font-size: 24px;
+      color: #12d640;
+      margin-bottom: 20px;
+    }
+  
+    .skills-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  
+    .icon-item {
+      text-align: center;
+      margin: 10px;
+    }
+  
+    .skill-icon {
+      width: 50px;
+      height: 50px;
+      transition: transform 0.3s ease;
+    }
+  
+    .icon-item:hover .skill-icon {
+      transform: scale(1.1);
+    }
+  
+    .icon-item figcaption {
+      font-size: 14px;
+      color: #ffffff;
+      margin-top: 5px;
+    }
+  </style>
+  
   <!-- ======= End Skills Section ======= -->
 
 
@@ -440,26 +653,43 @@
         <h2>Contact</h2>
       </div>
       <div class="row">
+        <!-- Social Profiles Section -->
         <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-share-alt"></i>
             <h3 style="color:#12d640;">Social Profiles</h3>
             <div class="social-links">
-              <a href="mailto:agnikbishi28@gmail.com" target="_blank" class="gmail"><i class="bx bxl-google"></i></a>
-              <a href="https://www.linkedin.com/in/agnik-bishi-38357a240/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://github.com/JISHUBISHI" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="https://leetcode.com/u/Agnikbishi28/" target="_blank" class="Leetcode"><i class="leetcode" src = "https://www.svgrepo.com/show/475654/github-color.svg"></i></a>
+              <a href="mailto:agnikbishi28@gmail.com" target="_blank" class="gmail">
+                <i class="bx bxl-google"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/agnik-bishi-38357a240/" target="_blank" class="linkedin">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://github.com/JISHUBISHI" target="_blank" class="github">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://leetcode.com/u/Agnikbishi28/" target="_blank" class="Leetcode">
+                <i class="bx bx-code-alt"></i>
+              </a>
             </div>
           </div>
         </div>
+  
+        <!-- Email Section -->
         <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3 style="color:#12d640;">Email</h3>
-            <a href="mailto:agnikbishi28@gmail.com" target="_blank"> <p><i class="icofont-rounded-right"></i> agnikbishi28@gmail.com</p> </a>
+            <a href="mailto:agnikbishi28@gmail.com" target="_blank">
+              <p><i class="icofont-rounded-right"></i> agnikbishi28@gmail.com</p>
+            </a>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <style></style>
+  
 
   <!-- ======= End Contact Section ======= -->
 
