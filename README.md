@@ -70,5 +70,5 @@ To run this portfolio website locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/JISHUBISHI/your-repo-name.git
+   git clone https:https://github.com/JISHUBISHI/portfolio_Main
    cd your-repo-name
